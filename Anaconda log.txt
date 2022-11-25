@@ -1,0 +1,23 @@
+conda install -c conda-forge python-docx
+conda install -c anaconda openpyxl
+
+conda install xlwings
+conda install numpy
+
+conda config --add channels conda-forge
+
+20201006-Eva
+conda install pandas
+conda install numpy
+conda install -c anaoconda openpyxlconda
+conda install -c conda-forge regex
+conda install -c anaconda tk
+conda install xlwings
+conda install -c conda-forge pytest-shutil
+conda install -c anaconda pywin32
+
+
+os already exists
+time already exists
+calendar already exists
+datetime already exists

@@ -1,0 +1,18 @@
+class Parent(object):
+    def __init__(self, name):
+        self.name = name
+        print("create an instance of:", self.__class__.__name__)
+        print("name attribute is:", self.name)
+#子??承父?        
+class Child(Parent):
+    #子?中?有?示?用父?的初始化函?
+    def __init__(self):
+        print("call __init__ from Child class")
+#c = Child("init Child") 
+#print()  
+#?子??例化  
+c = Child()
+print(c.name)
+————————————————
+版??明：本文?CSDN博主「brucewong0516」的原?文章，遵循CC 4.0 BY-SA 版???，???附上原文出??接及本?明。
+原文?接：https://blog.csdn.net/brucewong0516/article/details/79121179

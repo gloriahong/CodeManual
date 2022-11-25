@@ -1,0 +1,16 @@
+    Dim a As Date
+    Dim b As Date
+    a = Time    
+
+
+
+
+
+    b = Time - a
+    MsgBox "runtime: " & b
+
+
+
+On Error Resume Next
+
+ThisWorkbook.UpdateLinks = xlUpdateLinksAlways
